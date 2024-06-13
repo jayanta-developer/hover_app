@@ -6,7 +6,7 @@ export default function Card() {
 
 
   const rgbColors = [
-    "#E74C3C",
+    "#f54242",
     "#8E44AD",
     "#3498DB",
     "#1ABC9C",
@@ -28,10 +28,7 @@ export default function Card() {
 
 
   return (
-    <div
-      className="flip-card"
-      style={{ borderColor: rgbColors[curentBorderColor] }}
-    >
+    <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front" style={{ background: rgbColors[curentBorderColor] }}></div>
         <div className="flip-card-back" style={{ background: rgbColors[curentBorderColor] }}></div>
