@@ -25,8 +25,6 @@ export default function Card() {
     }, 1000);
   }, []);
 
-
-
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
